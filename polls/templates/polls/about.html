@@ -1,0 +1,30 @@
+<!-- howdy/templates/about.html -->
+<!DOCTYPE html>
+<html>
+{% load static %}
+
+<link rel="stylesheet" type="text/css" href="{% static 'polls/style.css' %}" />
+
+
+    <head>
+        <meta charset="utf-8">
+        <title>S&Y Faverate!</title>
+        <style>
+        p.ex1 {
+            display: block;
+            font-size: large;
+            line-height: 30px;
+            margin-left: 10%;
+            margin-right: 10%;
+        }
+        </style>
+    </head>
+    <body>
+        <h1 align="center">Welcome to the about page</h1>
+    <p class="ex1" style="color:DodgerBlue;">
+      S&Y Milk Tea is founded in 2017 and has been offering the freshest desserts to customers ever since. Utilizing traditional methods and selection of the finest ingredients. We aim to bring authentic local tastes to the international stage.
+      Using selected ingredients and traditional processes, they made soft taro balls and delicate herbal jelly desserts. They adhered strongly to the belief to serve customers the best tasting desserts and believed sincerity to be the key to customer's satisfaction.
+   </p>
+    <a href="/polls">Go back home</a>
+    </body>
+</html>

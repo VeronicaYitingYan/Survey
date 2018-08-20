@@ -1,0 +1,12 @@
+li {
+    color: Green;
+    display: inline-block;
+}
+
+body {
+    background: white url("images/background.gif") no-repeat;
+}
+
+ul {
+text-align: center;
+}
